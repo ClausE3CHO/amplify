@@ -1,15 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
+import map from './map.jpg';
 import './App.css';
+
+// comment
+//        <img src={logo} className="App-logo" alt="logo" />
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Her kommer en dag en Civilisation Game Master App
         </p>
+        <img src={map} className="civmap" alt="map" />
         <a
           className="App-link"
           href="https://reactjs.org"
